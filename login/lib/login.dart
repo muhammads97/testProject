@@ -1,6 +1,6 @@
 library login;
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:admin/admin.dart';
 
 class LoginPage extends StatefulWidget{
   final String title;
@@ -28,6 +28,11 @@ class LoginState extends State<LoginPage>{
     print(name.text);
     print(email.text);
     print(password.text);
+
+    Navigator.push(context, MaterialPageRoute(
+      builder: (context) =>  new UsersListPage(title: "Users")
+      )
+    );
   }
 
   @override

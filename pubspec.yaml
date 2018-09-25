@@ -21,6 +21,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   login:
     path: './login/'
+  admin:
+    path: './admin'
 
 dev_dependencies:
   flutter_test:

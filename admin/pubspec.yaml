@@ -1,4 +1,4 @@
-name: login
+name: admin
 description: A new flutter package project.
 version: 0.0.1
 author:
@@ -10,8 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  admin:
-    path: '../admin'
 
 dev_dependencies:
   flutter_test:
